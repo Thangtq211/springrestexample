@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user-profiles xmlns="urn:oma:xml:cab:pcc" xmlns:n1="urn:oma:xml:xdm:user-profile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n2="http://www.altova.com/samplexml/other-namespace" xsi:schemaLocation="urn:oma:xml:xdm:user-profile cdb_userProfile_extended_v9_ucc.xsd">
+    <keyList>
+        <listItem>
+            <entryUri>U-UCCUID1@ucc1.com</entryUri>
+        </listItem>
+    </keyList>
+    <entid>U-UCCUID1@ucc1.com</entid>
+    <domain>ucc1.com</domain>
+    <banid>12345676890</banid>
+    <user-profile uri="http://www.altova.com/">
+        <display-name xml:lang="en-us">UCC USER1</display-name>
+        <name xml:lang="en-us">
+            <given-name>UCC</given-name>
+            <family-name>USER1</family-name>
+            <name-prefix>Mr</name-prefix>
+        </name>
+    </user-profile>
+    <lineInfo>
+        <lineType>GSM</lineType>
+        <msisdn>1234567890</msisdn>
+    </lineInfo>
+    <roles>
+        <role>SuperAdmin</role>
+    </roles>
+    <administeredBans>
+        <banid>12345676890</banid>
+        <banid>RegularUser</banid>
+    </administeredBans>
+</user-profiles>
